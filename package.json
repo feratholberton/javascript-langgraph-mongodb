@@ -1,0 +1,37 @@
+{
+  "name": "javascript-langgraph-mongodb",
+  "version": "1.0.0",
+  "description": "[From Youtube video tutorial](https://www.youtube.com/watch?v=qXDrWKVSx1w \"Build a JavaScript AI Agent With LangGraph.js and MongoDB\") => https://www.youtube.com/watch?v=qXDrWKVSx1w",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feratholberton/javascript-langgraph-mongodb"
+  },
+  "keywords": [],
+  "author": "Fer Falcon",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/feratholberton/javascript-langgraph-mongodb/issues"
+  },
+  "homepage": "https://github.com/feratholberton/javascript-langgraph-mongodb#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@langchain/google-genai": "^0.2.18",
+    "@langchain/langgraph": "^0.4.9",
+    "@langchain/langgraph-checkpoint-mongodb": "^0.1.1",
+    "@langchain/mongodb": "^0.1.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.34",
+    "mongodb": "^6.20.0",
+    "zod": "^3.25.76"
+  }
+}
